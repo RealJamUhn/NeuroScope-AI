@@ -14,9 +14,9 @@ diagnosis_agent = DiagnosisAgent()
 
 st.set_page_config(page_title="NeuroScope AI", layout="centered")
 
-st.markdown("*⚠️DISCLAIMER* This tool should not be used as a substitute for professional medical advice")
+st.markdown("*⚠️DISCLAIMER* This tool should not be currently used as a substitute for professional medical advice")
 
-st.title("AI Autism Spectrum Disorder Diagnosis Tool (NeuroScope AI)")
+st.title("NeuroScope AI 🧠: Autism Spectrum Disorder Diagnosis Tool")
 
 age_input = st.number_input(
     "Enter the patient's age", value=None, step=1, placeholder=""
