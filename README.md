@@ -7,5 +7,5 @@ SCSP Hackathon Submission
 ```bash
 git clone https://github.com/yourusername/NeuroScopeAI.git
 cd NeuroScopeAI
-
-### 1. Create a Virtual Environment (Optional)
+```
+### 2. Create a Virtual Environment (Optional)
