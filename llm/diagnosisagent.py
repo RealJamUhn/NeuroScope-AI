@@ -7,7 +7,7 @@ class DiagnosisAgent(BaseClaudeAgent):
 
         prompt = f"""You are a clinical reasoning agent that uses given evaluations from 3 other Agents to determine how likely it is for this patient to have Autism Spectrum Disorders.
 
-                Your task is to compare the information inputted by the agents with the DSM-5 MCP and determine the likelihood of the patient having ASD, if it is likely that they have ASD, which disorder/s might they have, as well as comorbities.
+                Your task is to compare the information inputted by the agents with the DSM-5 MCP and determine the likelihood of the patient having ASD, as well as comorbities.
                 
                 Also base your conclusion the features of ASD which are found common or not at the patient's age.
 
@@ -29,7 +29,7 @@ class DiagnosisAgent(BaseClaudeAgent):
                 
                 Your output must follow this exact format (Do not address yourself as an agent. Begin with the first line below):
 
-                    (Nothing before this) It is... (likelihood) that you have an Autism Spectrum Disorder. (If the likelihood is on the likelier side) Specifically ...
+                    (Nothing before this) It is... (likelihood) that you have an Autism Spectrum Disorder.
 
                     Possible comorbidities include: (comorbidity): (likelihood)...
 
